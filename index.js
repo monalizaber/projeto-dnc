@@ -1,8 +1,8 @@
-var setaDireita = window.document.getElement.getEelementById("setad")
-var setaEsquerda = window.document.getElement.getEelementById("setae")
-var Leonardo = window.document.getElement.getEelementById("Leonardo")
-var Samantha = window.document.getElement.getEelementById("Samantha")
-var Bruna = window.document.getElement.getEelementById("Bruna")
+var setaDireita = window.document.getElementById("seta-direita")
+var Leonardo = window.document.getElementById("Leonardo")
+var Samantha = window.document.getElementById("Samantha")
+var Bruna = window.document.getElementById("Bruna")
+var setaEsquerda = window.document.getElementById("seta-esquerda")
 
 function RolarParaDireita() {
   Leonardo.style = "display:none"
@@ -10,6 +10,7 @@ function RolarParaDireita() {
   setaDireita.style = "display:none"
   setaEsquerda.style = "display:flex; margin-top:55px"
 }
+
 function RolarParaEsquerda() {
 Leonardo.style = "display: flex"
 Bruna.style = "display: none"
